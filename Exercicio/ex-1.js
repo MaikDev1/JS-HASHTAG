@@ -6,3 +6,5 @@ console.log("Olá, mundo!"); // Olá, mundo!
 console.log("Tudo bem com você? "); // Tudo bem com você?
 console.log("Seja bem vindo, Maik"); // Seja bem vindo, Maik
 console.log("Olá, Maik, tudo bem com voce ?"); // Olá, Maik, tudo bem com voce
+
+
