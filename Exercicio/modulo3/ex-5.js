@@ -1,5 +1,5 @@
 let produto = Boolean(true);
-let quantidade = 15;
+let quantidade = 17;
 let estoque = 15;
 
 let final = quantidade <= estoque;
@@ -9,4 +9,4 @@ let final = quantidade <= estoque;
 console.log(`O produto está disponível e tem quantidade suficiente: ${
   produto && estoque >= quantidade
 } ” e “'O
-produto está indisponível: false`);
+produto está indisponível: ${!produto || estoque > quantidade}`);

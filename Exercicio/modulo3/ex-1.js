@@ -5,5 +5,5 @@ let produto = 200;
 let desconto = 40;
 let imposto = 12;
 
-let precoFinal = produto - 40 + 12;
-console.log(precoFinal); // 172
+let precoFinal = produto - desconto + imposto;
+console.log("preco final e de", precoFinal);
